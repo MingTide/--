@@ -1,0 +1,18 @@
+/* 
+当html不设置背景时，body的背景将作为整个浏览器的背景色，而不是body标签自己的背景色。当设置html背景色后，body的背景色就变成了body自己的背景色，此时html的背景色将被浏览器获取成为浏览器的背景色。
+ */
+html {
+    background: #fff;
+}
+
+body {
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto;
+    font: normal 16px/1.5 "PingFangSC-regular", Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    color: #000;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    background-color: green;
+
+}
